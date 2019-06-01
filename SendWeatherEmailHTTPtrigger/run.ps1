@@ -41,5 +41,5 @@ Send-MailMessage `
 
 Push-OutputBinding -Name Response -Value @{
     StatusCode = "ok"
-    Body       = "Ok"
+    Body       = "Email sent"
 }
